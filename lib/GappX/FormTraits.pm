@@ -1,7 +1,5 @@
 package GappX::FormTraits;
 
-our $VERSION = 0.01;
-
 use GappX::FormTraits::Meta::Widget::Custom::Trait::CityEntry;
 use GappX::FormTraits::Meta::Widget::Custom::Trait::EmailEntry;
 use GappX::FormTraits::Meta::Widget::Custom::Trait::StateEntry;
@@ -73,13 +71,11 @@ more information.
 
 =head1 COPYRIGHT & LICENSE
 
-    Copyright (c) 2011 Jeffrey Ray Hallock.
+Copyright (c) 2010-2012 Jeffrey Ray Hallock.
+    
+    This is free software, licensed under:
 
-    This program is free software; you can redistribute it and/or
-    modify it under the same terms as Perl itself.
-
-    Individual packages in this module may have have multiple
-    copyrights and licenses. Please refer to the documentation
-    of indivdual packages for more information.
+    The Artistic License 2.0 (GPL Compatible)
 
 =cut
+

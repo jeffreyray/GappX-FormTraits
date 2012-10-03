@@ -1,4 +1,7 @@
-Changes for Gapp
+Changes for GappX-FormTraits
+
+{{$NEXT}}
+- using Dist::Zilla
 
 0.01 GappX-FormTraits
 - original version
