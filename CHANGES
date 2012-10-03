@@ -1,6 +1,11 @@
 Changes for GappX-FormTraits
 
 {{$NEXT}}
+
+0.201     2012-10-03 12:22:38
+- fixed tests ( work with Gapp .40.x )
+
+0.200     2012-10-03 12:16:47
 - using Dist::Zilla
 
 0.01 GappX-FormTraits
