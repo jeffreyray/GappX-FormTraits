@@ -65,10 +65,6 @@ Sets C<width-chars> to 5.
 
 Jeffrey Ray Hallock E<lt>jeffrey.hallock at gmail dot comE<gt>
 
-Individual packages in this module may have have multiple authors/and or
-contributors. Please refer to the documentation of indivdual packages for
-more information.
-
 =head1 COPYRIGHT & LICENSE
 
 Copyright (c) 2010-2012 Jeffrey Ray Hallock.

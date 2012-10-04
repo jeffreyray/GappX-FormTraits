@@ -11,12 +11,12 @@ around BUILDARGS => sub {
 # returns the value of the widget
 around 'get_field_value' => sub {
     my ( $orig, $self, @args ) = @_;
-    $self->gtk_widget->get_text eq '' ? undef : $self->gtk_widget->get_text;
+    $self->gobject->get_text eq '' ? undef : $self->gtk_widget->get_text;
 };
 
 around 'set_field_value' => sub {
     my ( $orig, $self, $value ) = @_;
-    $self->gtk_widget->set_value( defined $value ? $value : '' );
+    $self->gobject->set_value( defined $value ? $value : '' );
 };
 
 
