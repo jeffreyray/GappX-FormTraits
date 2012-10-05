@@ -16,7 +16,7 @@ around 'get_field_value' => sub {
 
 around 'set_field_value' => sub {
     my ( $orig, $self, $value ) = @_;
-    $self->gobject->set_value( defined $value ? $value : '' );
+    $self->gobject->set_text( defined $value ? $value : '' );
 };
 
 
